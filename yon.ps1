@@ -1,9 +1,19 @@
-  $ch = Read-Host -Prompt 'Welcome! Are You Sure For Start Proccess? (Y/N)'
+﻿  $ch = Read-Host -Prompt 'Hi , Are You OK? (Y/N)'
   if ($ch -eq 'y')
   {
     Write-Host "Good Luck.`n"
-    Write-Host "This Is Your Id = 0271212057`n"
-    Write-Host "Kood Nevis Cheater!`n"
+    If (Test-Path -Path ins.rar ) {
+    Write-Host "Working On It!.`n"
+    $WinRar = "C:\Program Files\WinRAR\UnRAR.exe"
+
+&$WinRar x ins.rar
+}else
+{
+Write-Host "Not Working!.`n"
+$source = 'https://github.com/mrpond/BlockTheSpot/releases/latest/download/chrome_elf.zip'
+$destination = '100MB.zip'
+Start-BitsTransfer -Source $source -Destination $destination
+}
   }
   else
   {
