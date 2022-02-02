@@ -1,8 +1,8 @@
-  $ch = Read-Host -Prompt 'Do You Play Game (Y/N)'
+  $ch = Read-Host -Prompt 'Welcome! Are You Sure For Start Proccess? (Y/N)'
   if ($ch -eq 'y')
   {
     Write-Host "Good Luck.`n"
-    Write-Host "My Steam Id Is = 000000`n"
+    Write-Host "This Is Your Id = 0271212057`n"
   }
   else
   {
