@@ -3,7 +3,7 @@
   {
     Write-Host "Good Luck.`n"
     Write-Host "This Is Your Id = 0271212057`n"
-    Write-Host "Enjoy!`n"
+    Write-Host "Kood Nevis Cheater!`n"
   }
   else
   {
