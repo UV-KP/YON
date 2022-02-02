@@ -2,6 +2,7 @@
   if ($ch -eq 'y')
   {
     Write-Host "Good Luck.`n"
+    Write-Host "My Steam Id Is = 000000`n"
   }
   else
   {
